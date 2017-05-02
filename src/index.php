@@ -11,5 +11,4 @@
 
 
 $response = $book_service_client->request('GET', 'book');
-
- echo "Reponse ==> " + $response;
+var_dump($response);
